@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage</title>
+    <style>
+        /* CSS for centering photo */
+        .center {
+            text-align: center;
+        }
+        
+        /* CSS for submit button */
+        .submit-btn {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            font-size: 16px;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="center">
+        <h2>Photo Description</h2>
+        <img src="https://raw.githubusercontent.com/appbrewery/webdev/main/puppy.gif" alt="Photo">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec semper turpis.</p>
+    </div>
+
+    
+    <h2>Student Details</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Roll No</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>XYZ</td>
+            <td>23UV10001</td>
+            <td>xyz@example.com</td>
+        </tr>
+        <tr>
+            <td>ABC</td>
+            <td>23UV10002</td>
+            <td>abc@example.com</td>
+        </tr>
+        <tr>
+            <td>GHI</td>
+            <td>23UV10003</td>
+            <td>ghi@example.com</td>
+        </tr>
+        <tr>
+            <td>DEF</td>
+            <td>23UV10004</td>
+            <td>def@example.com</td>
+        </tr>
+        
+    </table>
+
+    
+    <h2>Submit Form</h2>
+    <form action="#" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+        <input type="submit" value="Submit" class="submit-btn">
+    </form>
+</body>
+</html>
